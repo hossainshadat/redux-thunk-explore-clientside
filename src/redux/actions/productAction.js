@@ -1,10 +1,18 @@
 import {
   ADD_PRODUCT,
   ADD_TO_CART,
+  LOAD_PRODUCT,
   PRODUCT_LOADED,
   REMOVE_FROM_CART,
   REMOVE_PRODUCT,
 } from "../actionTypes/actionTypes";
+
+export const loadProduct =(product)=> {
+  return {
+    type: LOAD_PRODUCT,
+    payload: product
+  }
+}
 
 export const addProduct = (product) => {
   return {

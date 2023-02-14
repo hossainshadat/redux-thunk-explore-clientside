@@ -6,3 +6,4 @@ export const REMOVE_PRODUCT = "REMOVE_PRODUCT";
 
 export const TOGGLE_BRAND = "TOGGLE_BRAND";
 export const TOGGLE_STOCK = "TOGGLE_STOCK";
+export const LOAD_PRODUCT =  "LOAD_PRODUCT"
